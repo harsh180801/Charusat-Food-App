@@ -16,7 +16,7 @@ class _MyPasswordTextFormFieldState extends State<MyPasswordTextFormField> {
   Widget build(BuildContext context) {
     return TextFormField(
       controller: widget.controller,
-      obscureText: true,
+      obscureText: obscureText,
       decoration: InputDecoration(
         suffixIcon: GestureDetector(
           onTap: (){

@@ -9,9 +9,10 @@ class TopTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         height: 200,
-        width: 500,
+        width: double.infinity,
         padding: const EdgeInsets.symmetric(
-            vertical: 30, horizontal: 15),
+            vertical: 30,
+        ),
         // color: Colors.blue,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

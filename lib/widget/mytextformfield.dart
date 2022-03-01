@@ -9,7 +9,7 @@ class MyTextFormField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFormField(
       controller: controller,
-      obscureText: true,
+      //obscureText: true,
       decoration: InputDecoration(
           fillColor: const Color(0xfff5d8e4),
           filled: true,

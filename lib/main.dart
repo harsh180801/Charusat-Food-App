@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/screens/loginn.dart';
+import 'package:food_app/screens/signup.dart';
 void main() {
   runApp(MyApp());
 }
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: Colors.pinkAccent,
         ),
-        home: Login(),
+        home: Signup(),
     );
   }
 }
